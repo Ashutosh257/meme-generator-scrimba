@@ -119,13 +119,11 @@ img.form-meme-image{
 
 .meme--text{
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(10%);
   font-family: impact, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 3rem;
-  text-align: center;
+  font-size: 2rem;
   padding: 0.2em;
   margin: 0;
   text-shadow: 2px 2px 2px #000;
