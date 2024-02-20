@@ -1,0 +1,46 @@
+
+.dark{
+    background-color: #1f1f1f;
+}
+
+.toggler{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.toggler > p{
+    margin: 0;
+    padding: 0;
+}
+
+.toggler--slider{
+    display: flex;
+    align-items: center;
+    
+    width: 40px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.toggler--slider-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #f2f2f2;
+    margin: 0 0.1em;
+    cursor: pointer;
+}
+
+.toggler--slider-clicked{
+    /* background-color: yellow; */
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+.img--moon, .img--sun{
+    width: 30px;
+    cursor: pointer;
+}

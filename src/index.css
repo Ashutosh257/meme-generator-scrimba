@@ -1,0 +1,156 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Karla, sans-serif;
+  margin: 0;
+}
+
+/* Header */
+
+header{
+  color: white;
+  background: #672280;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #672280, #A626D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #672280, #A626D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  padding: 0 1em;
+  height: 50px;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+}
+
+.nav--img{
+  width: 30px;
+  height: 30px;
+}
+
+.nav--title{
+  font-weight: 500;
+}
+
+.nav--title-logo{
+  display: flex;
+  gap: 0.5em;
+}
+
+.nav--title-right{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  cursor: pointer;
+}
+
+.nav--title-right > i{
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+/* Meme */
+
+.form{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form--input, .btn-meme-img{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form--input{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.form--input-text{
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  text-indent: 10px;
+}
+
+
+.btn-meme-img{
+  padding: 1em;
+  font-family: Karla, sans-serif;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(to right, #672280, #A626D3);
+}
+
+
+
+.meme {
+  user-select: none;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+img.form-meme-image{
+  margin: 0;
+  width: 100%;
+  height: 60vh;
+  aspect-ratio: 1 / 0.8;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+
+.meme--text{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+  padding: 0.2em;
+  margin: 0;
+  text-shadow: 2px 2px 2px #000;
+  
+  /* cursor: pointer; */
+  /* border: 1px dashed #000; */
+}
+
+/* .meme--text:hover{
+
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+} */
+
+.top{
+  top: 0;
+}
+
+.bottom{
+  bottom: 0;
+}
+
+
+/* Footer */
+.developed-by{
+  display: block;
+  margin: 0.5em;
+  color: #A626D3;
+}
